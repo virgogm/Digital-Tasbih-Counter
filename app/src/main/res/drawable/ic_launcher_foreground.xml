@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Decorative Concentric Progress Ring -->
+    <path
+        android:strokeColor="#2C3E43"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54 22 A 32 32 0 1 1 53.9 22" />
+
+    <!-- Overlapping Square 1 for Rub el Hizb (8-pointed star) -->
+    <path
+        android:strokeColor="#7D928E"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M 40 40 L 68 40 L 68 68 L 40 68 Z" />
+
+    <!-- Overlapping Square 2 (Rotated 45 degrees) -->
+    <path
+        android:strokeColor="#7D928E"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M 54 34 L 68 48 L 54 62 L 40 48 Z" />
+
+    <!-- Central Concentric Ring Anchor -->
+    <path
+        android:strokeColor="#2C3E43"
+        android:strokeWidth="2"
+        android:pathData="M 54 44 A 4 4 0 1 1 53.9 44" />
+
+    <!-- Small outer dynamic markers -->
+    <path
+        android:fillColor="#2C3E43"
+        android:pathData="M 54 13 A 2 2 0 1 1 53.9 13" />
+    <path
+        android:fillColor="#2C3E43"
+        android:pathData="M 54 91 A 2 2 0 1 1 53.9 91" />
+    <path
+        android:fillColor="#2C3E43"
+        android:pathData="M 13 54 A 2 2 0 1 1 12.9 54" />
+    <path
+        android:fillColor="#2C3E43"
+        android:pathData="M 91 54 A 2 2 0 1 1 90.9 54" />
+        
+</vector>

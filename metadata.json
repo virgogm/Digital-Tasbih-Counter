@@ -1,0 +1,6 @@
+{
+  "name": "Digital Tasbih",
+  "description": "A premium, minimalist, and pastel-themed Digital Tasbih counter with local persistence and real-time statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
